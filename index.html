@@ -1,0 +1,1189 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SRGlobal 에스알글러벌 | 총무대행 · 기업 MRO · 상업디자인</title>
+<meta name="description" content="에스알글러벌은 총무업무 대행, 기업 MRO 구매대행, 상업디자인을 한 곳에서 제공합니다. 2026년 기준 120개사 총무업무 수임.">
+<meta property="og:title" content="SRGlobal 에스알글러벌">
+<meta property="og:description" content="흩어진 총무 업무를 하나의 궤도로. 총무대행 · 기업 MRO · 상업디자인">
+<meta property="og:image" content="sr-symbol.png">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&amp;family=Noto+Sans+KR:wght@300;400;500;700&amp;display=swap">
+<style>
+body{margin:0;background:#04060D}
+html{scroll-behavior:smooth}
+a{color:#C9D4FF}a:hover{color:#FFFFFF}
+*{box-sizing:border-box}
+.srg-wrap{position:relative;z-index:2;max-width:1200px;margin:0 auto;padding:0 24px}
+.srg-eyebrow{margin:0;font-family:'Space Grotesk',sans-serif;font-size:12px;letter-spacing:.32em;color:#9FB0E8}
+.srg-h2{margin:0;font-size:clamp(28px,3.4vw,42px);line-height:1.28;font-weight:700;letter-spacing:-.02em;color:#FFFFFF}
+.srg-en{font-family:'Space Grotesk',sans-serif}
+.srg-line{height:1px;background:linear-gradient(90deg,#4C6BE0,#E5394B);opacity:.7}
+.srg-ic{width:30px;height:30px;fill:none;stroke:#B9C6FF;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round;flex:none}
+
+@keyframes srg-twinkle{0%,100%{opacity:.15}50%{opacity:.9}}
+@keyframes srg-spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes srg-spin-r{from{transform:rotate(360deg)}to{transform:rotate(0deg)}}
+@keyframes srg-spiral{0%{transform:rotate(0deg) translateX(46vmin) scale(1);opacity:0}12%{opacity:1}85%{opacity:.8}100%{transform:rotate(620deg) translateX(0) scale(.15);opacity:0}}
+@keyframes srg-breathe{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.08);opacity:1}}
+@keyframes srg-travel{0%{left:0;opacity:0}8%{opacity:1}92%{opacity:1}100%{left:100%;opacity:0}}
+@keyframes srg-marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@keyframes srg-pulse{0%{transform:scale(.6);opacity:.8}100%{transform:scale(2.6);opacity:0}}
+@keyframes srg-rise{from{opacity:0;transform:translateY(44px)}to{opacity:1;transform:none}}
+@keyframes srg-draw{from{stroke-dashoffset:1600}to{stroke-dashoffset:0}}
+@keyframes srg-grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+@keyframes srg-fadein{from{opacity:0}to{opacity:1}}
+@keyframes srg-pop{from{opacity:0;transform:translateY(24px) scale(.98)}to{opacity:1;transform:none}}
+@keyframes srg-ping{0%{box-shadow:0 0 0 0 rgba(220,227,255,.55)}100%{box-shadow:0 0 0 16px rgba(220,227,255,0)}}
+
+.srg-star{position:absolute;border-radius:50%;background:#E6ECFF;animation:srg-twinkle ease-in-out infinite}
+.srg-ring{position:absolute;left:50%;top:50%;border-radius:50%;animation:srg-spin linear infinite}
+.srg-ring-r{animation-name:srg-spin-r}
+.srg-orbit{position:absolute;left:50%;top:50%;width:0;height:0}
+.srg-p{position:absolute;left:0;top:0;width:3px;height:3px;margin:-1.5px 0 0 -1.5px;border-radius:50%;animation:srg-spiral cubic-bezier(.55,.05,.85,.35) infinite}
+.srg-core{animation:srg-breathe 6s ease-in-out infinite}
+.srg-traveler{position:absolute;top:50%;width:10px;height:10px;margin:-5px 0 0 -5px;border-radius:50%;background:#FFFFFF;box-shadow:0 0 12px 3px rgba(150,170,255,.9),0 0 30px 8px rgba(229,57,75,.35);animation:srg-travel linear infinite}
+.srg-marquee-track{display:flex;gap:12px;width:max-content;animation:srg-marquee 36s linear infinite}
+.srg-pulse{position:absolute;inset:0;border-radius:50%;border:1px solid #F0596A;animation:srg-pulse 2.4s ease-out infinite}
+.srg-spin-slow{animation:srg-spin 40s linear infinite}
+.srg-chartline{stroke-dasharray:1600;animation:srg-draw 2.4s cubic-bezier(.3,.6,.2,1) both}
+.srg-chartarea{animation:srg-fadein 2s ease both}
+.srg-col{transform-origin:bottom;transform-box:fill-box;animation:srg-grow 1.4s cubic-bezier(.2,.7,.2,1) both}
+.srg-dock-cta{animation:srg-ping 2.6s ease-out infinite}
+
+.srg-card{transition:border-color .3s ease,background-color .3s ease,transform .3s ease}
+.srg-card:hover{border-color:rgba(160,180,255,.5);background-color:rgba(20,28,56,.65);transform:translateY(-4px)}
+.srg-navlink{color:#AEB8D0;text-decoration:none}
+.srg-navlink:hover{color:#FFFFFF}
+.srg-btn{transition:background-color .25s ease,color .25s ease,transform .25s ease;cursor:pointer}
+.srg-btn:hover{background-color:#FFFFFF;color:#04060D}
+.srg-ghost{cursor:pointer;transition:border-color .25s ease,color .25s ease}
+.srg-ghost:hover{border-color:#FFFFFF;color:#FFFFFF}
+.srg-dockbtn{transition:transform .25s ease,background-color .25s ease;cursor:pointer}
+.srg-dockbtn:hover{transform:translateY(-3px)}
+.srg-field{width:100%;min-height:46px;padding:10px 14px;border-radius:6px;border:1px solid rgba(160,180,255,.28);background:#0B1022;color:#FFFFFF;font:inherit;font-size:15px}
+.srg-field:focus{outline:2px solid #9FB0E8;outline-offset:1px}
+.srg-panel{animation:srg-pop .35s cubic-bezier(.2,.7,.2,1) both}
+.srg-backdrop{animation:srg-fadein .3s ease both}
+
+@supports (animation-timeline: view()){
+.srg-reveal{animation:srg-rise both ease-out;animation-timeline:view();animation-range:entry 0% cover 22%}
+.srg-chartline{animation:srg-draw both linear;animation-timeline:view();animation-range:entry 20% cover 50%}
+.srg-col{animation:srg-grow both ease-out;animation-timeline:view();animation-range:entry 20% cover 45%}
+}
+@media (prefers-reduced-motion: reduce){.srg-star,.srg-ring,.srg-p,.srg-core,.srg-traveler,.srg-marquee-track,.srg-pulse,.srg-spin-slow,.srg-reveal,.srg-chartline,.srg-col,.srg-dock-cta,.srg-panel{animation:none}}
+</style>
+</head>
+<body>
+<div id="top" style="position: relative; width: 100%; min-height: 100vh; background: #04060D; color: #E8ECF6; font-family: 'Noto Sans KR', 'Space Grotesk', system-ui, sans-serif; overflow: hidden; line-height: 1.6">
+
+<div aria-hidden="true" style="position: absolute; inset: 0; pointer-events: none">
+
+<span class="srg-star" style="left:11.55%;top:24.40%;width:1.7px;height:1.7px;animation-duration:5.7s;animation-delay:-4.1s"></span>
+
+<span class="srg-star" style="left:58.94%;top:41.08%;width:2.1px;height:2.1px;animation-duration:4.7s;animation-delay:-6.3s"></span>
+
+<span class="srg-star" style="left:49.86%;top:23.51%;width:1.1px;height:1.1px;animation-duration:7.0s;animation-delay:-1.3s"></span>
+
+<span class="srg-star" style="left:17.62%;top:5.01%;width:1.6px;height:1.6px;animation-duration:8.6s;animation-delay:-7.8s"></span>
+
+<span class="srg-star" style="left:95.57%;top:18.91%;width:1.5px;height:1.5px;animation-duration:5.5s;animation-delay:-4.4s"></span>
+
+<span class="srg-star" style="left:17.04%;top:98.56%;width:1.3px;height:1.3px;animation-duration:5.7s;animation-delay:-1.9s"></span>
+
+<span class="srg-star" style="left:15.36%;top:77.28%;width:1.4px;height:1.4px;animation-duration:5.1s;animation-delay:-2.8s"></span>
+
+<span class="srg-star" style="left:23.86%;top:88.41%;width:2.1px;height:2.1px;animation-duration:5.8s;animation-delay:-1.9s"></span>
+
+<span class="srg-star" style="left:75.89%;top:65.28%;width:1.5px;height:1.5px;animation-duration:3.8s;animation-delay:-1.8s"></span>
+
+<span class="srg-star" style="left:4.77%;top:41.23%;width:1.1px;height:1.1px;animation-duration:7.1s;animation-delay:-5.2s"></span>
+
+<span class="srg-star" style="left:43.83%;top:49.58%;width:2.6px;height:2.6px;animation-duration:5.6s;animation-delay:-6.7s"></span>
+
+<span class="srg-star" style="left:26.41%;top:23.67%;width:1.5px;height:1.5px;animation-duration:7.5s;animation-delay:-1.1s"></span>
+
+<span class="srg-star" style="left:85.84%;top:96.84%;width:1.9px;height:1.9px;animation-duration:8.6s;animation-delay:-6.9s"></span>
+
+<span class="srg-star" style="left:55.45%;top:2.41%;width:1.8px;height:1.8px;animation-duration:4.9s;animation-delay:-2.9s"></span>
+
+<span class="srg-star" style="left:68.59%;top:73.72%;width:1.5px;height:1.5px;animation-duration:4.6s;animation-delay:-7.7s"></span>
+
+<span class="srg-star" style="left:58.58%;top:44.11%;width:1.4px;height:1.4px;animation-duration:3.5s;animation-delay:-7.9s"></span>
+
+<span class="srg-star" style="left:58.75%;top:46.91%;width:2.0px;height:2.0px;animation-duration:3.8s;animation-delay:-6.3s"></span>
+
+<span class="srg-star" style="left:2.44%;top:15.44%;width:1.3px;height:1.3px;animation-duration:7.2s;animation-delay:-5.6s"></span>
+
+<span class="srg-star" style="left:22.98%;top:83.06%;width:2.0px;height:2.0px;animation-duration:4.0s;animation-delay:-0.3s"></span>
+
+<span class="srg-star" style="left:53.71%;top:83.07%;width:1.0px;height:1.0px;animation-duration:8.1s;animation-delay:-1.2s"></span>
+
+<span class="srg-star" style="left:27.96%;top:48.83%;width:1.1px;height:1.1px;animation-duration:3.4s;animation-delay:-2.8s"></span>
+
+<span class="srg-star" style="left:79.06%;top:13.66%;width:1.4px;height:1.4px;animation-duration:4.0s;animation-delay:-0.0s"></span>
+
+<span class="srg-star" style="left:40.34%;top:10.90%;width:1.1px;height:1.1px;animation-duration:5.9s;animation-delay:-3.3s"></span>
+
+<span class="srg-star" style="left:45.14%;top:73.89%;width:1.9px;height:1.9px;animation-duration:5.0s;animation-delay:-7.4s"></span>
+
+<span class="srg-star" style="left:26.79%;top:35.94%;width:1.8px;height:1.8px;animation-duration:3.5s;animation-delay:-7.0s"></span>
+
+<span class="srg-star" style="left:18.63%;top:30.40%;width:1.1px;height:1.1px;animation-duration:3.2s;animation-delay:-4.8s"></span>
+
+<span class="srg-star" style="left:53.99%;top:90.61%;width:1.5px;height:1.5px;animation-duration:6.2s;animation-delay:-3.4s"></span>
+
+<span class="srg-star" style="left:66.20%;top:49.88%;width:2.1px;height:2.1px;animation-duration:8.4s;animation-delay:-5.4s"></span>
+
+<span class="srg-star" style="left:88.59%;top:41.57%;width:2.2px;height:2.2px;animation-duration:6.0s;animation-delay:-5.6s"></span>
+
+<span class="srg-star" style="left:54.51%;top:98.99%;width:2.1px;height:2.1px;animation-duration:6.8s;animation-delay:-6.6s"></span>
+
+<span class="srg-star" style="left:97.27%;top:55.49%;width:1.1px;height:1.1px;animation-duration:6.9s;animation-delay:-3.1s"></span>
+
+<span class="srg-star" style="left:50.22%;top:44.40%;width:1.9px;height:1.9px;animation-duration:8.3s;animation-delay:-5.8s"></span>
+
+<span class="srg-star" style="left:46.69%;top:99.05%;width:1.4px;height:1.4px;animation-duration:7.0s;animation-delay:-1.2s"></span>
+
+<span class="srg-star" style="left:20.01%;top:52.77%;width:1.2px;height:1.2px;animation-duration:4.9s;animation-delay:-0.2s"></span>
+
+<span class="srg-star" style="left:3.52%;top:38.90%;width:2.8px;height:2.8px;animation-duration:4.1s;animation-delay:-5.3s"></span>
+
+<span class="srg-star" style="left:30.54%;top:90.77%;width:1.9px;height:1.9px;animation-duration:6.6s;animation-delay:-3.2s"></span>
+
+<span class="srg-star" style="left:34.42%;top:41.71%;width:1.2px;height:1.2px;animation-duration:8.4s;animation-delay:-4.5s"></span>
+
+<span class="srg-star" style="left:48.48%;top:25.06%;width:1.2px;height:1.2px;animation-duration:5.4s;animation-delay:-4.1s"></span>
+
+<span class="srg-star" style="left:6.06%;top:74.16%;width:1.0px;height:1.0px;animation-duration:5.7s;animation-delay:-4.4s"></span>
+
+<span class="srg-star" style="left:40.49%;top:22.32%;width:2.3px;height:2.3px;animation-duration:5.3s;animation-delay:-0.3s"></span>
+
+<span class="srg-star" style="left:85.11%;top:2.90%;width:1.9px;height:1.9px;animation-duration:6.2s;animation-delay:-2.2s"></span>
+
+<span class="srg-star" style="left:73.24%;top:49.21%;width:1.3px;height:1.3px;animation-duration:4.4s;animation-delay:-5.0s"></span>
+
+<span class="srg-star" style="left:38.23%;top:94.60%;width:2.1px;height:2.1px;animation-duration:7.8s;animation-delay:-3.3s"></span>
+
+<span class="srg-star" style="left:13.40%;top:72.39%;width:1.3px;height:1.3px;animation-duration:6.5s;animation-delay:-7.7s"></span>
+
+<span class="srg-star" style="left:32.09%;top:15.93%;width:1.4px;height:1.4px;animation-duration:8.5s;animation-delay:-5.0s"></span>
+
+<span class="srg-star" style="left:27.64%;top:58.54%;width:1.8px;height:1.8px;animation-duration:3.8s;animation-delay:-5.7s"></span>
+
+<span class="srg-star" style="left:33.36%;top:33.56%;width:2.9px;height:2.9px;animation-duration:6.3s;animation-delay:-4.5s"></span>
+
+<span class="srg-star" style="left:82.61%;top:74.32%;width:1.5px;height:1.5px;animation-duration:6.2s;animation-delay:-4.2s"></span>
+
+<span class="srg-star" style="left:8.71%;top:14.15%;width:1.5px;height:1.5px;animation-duration:5.3s;animation-delay:-7.4s"></span>
+
+<span class="srg-star" style="left:44.99%;top:86.39%;width:2.1px;height:2.1px;animation-duration:5.6s;animation-delay:-0.7s"></span>
+
+<span class="srg-star" style="left:24.79%;top:24.37%;width:1.4px;height:1.4px;animation-duration:3.3s;animation-delay:-2.8s"></span>
+
+<span class="srg-star" style="left:81.45%;top:61.43%;width:2.2px;height:2.2px;animation-duration:6.2s;animation-delay:-0.4s"></span>
+
+<span class="srg-star" style="left:48.29%;top:30.89%;width:1.2px;height:1.2px;animation-duration:4.5s;animation-delay:-4.2s"></span>
+
+<span class="srg-star" style="left:58.64%;top:66.09%;width:1.3px;height:1.3px;animation-duration:5.9s;animation-delay:-0.7s"></span>
+
+<span class="srg-star" style="left:45.85%;top:0.37%;width:1.6px;height:1.6px;animation-duration:6.7s;animation-delay:-0.8s"></span>
+
+<span class="srg-star" style="left:43.25%;top:67.05%;width:1.4px;height:1.4px;animation-duration:8.8s;animation-delay:-7.0s"></span>
+
+<span class="srg-star" style="left:84.16%;top:99.48%;width:1.0px;height:1.0px;animation-duration:8.1s;animation-delay:-6.0s"></span>
+
+<span class="srg-star" style="left:1.93%;top:30.98%;width:2.1px;height:2.1px;animation-duration:6.7s;animation-delay:-0.5s"></span>
+
+<span class="srg-star" style="left:29.88%;top:94.89%;width:1.4px;height:1.4px;animation-duration:6.6s;animation-delay:-1.1s"></span>
+
+<span class="srg-star" style="left:1.34%;top:24.53%;width:1.8px;height:1.8px;animation-duration:3.7s;animation-delay:-2.6s"></span>
+
+<span class="srg-star" style="left:49.66%;top:53.26%;width:1.3px;height:1.3px;animation-duration:6.2s;animation-delay:-7.5s"></span>
+
+<span class="srg-star" style="left:8.17%;top:14.38%;width:1.4px;height:1.4px;animation-duration:3.9s;animation-delay:-2.6s"></span>
+
+<span class="srg-star" style="left:10.19%;top:41.25%;width:1.4px;height:1.4px;animation-duration:4.9s;animation-delay:-6.5s"></span>
+
+<span class="srg-star" style="left:89.07%;top:67.20%;width:1.6px;height:1.6px;animation-duration:5.1s;animation-delay:-5.9s"></span>
+
+<span class="srg-star" style="left:78.13%;top:25.55%;width:1.3px;height:1.3px;animation-duration:6.7s;animation-delay:-3.5s"></span>
+
+<span class="srg-star" style="left:10.71%;top:49.64%;width:2.0px;height:2.0px;animation-duration:5.5s;animation-delay:-1.8s"></span>
+
+<span class="srg-star" style="left:20.14%;top:72.81%;width:1.8px;height:1.8px;animation-duration:3.6s;animation-delay:-3.6s"></span>
+
+<span class="srg-star" style="left:39.76%;top:28.38%;width:1.1px;height:1.1px;animation-duration:3.0s;animation-delay:-3.6s"></span>
+
+<span class="srg-star" style="left:2.90%;top:49.70%;width:1.4px;height:1.4px;animation-duration:5.7s;animation-delay:-4.4s"></span>
+
+<span class="srg-star" style="left:42.88%;top:70.08%;width:1.9px;height:1.9px;animation-duration:7.6s;animation-delay:-0.7s"></span>
+
+<span class="srg-star" style="left:93.05%;top:22.88%;width:3.2px;height:3.2px;animation-duration:4.8s;animation-delay:-3.1s"></span>
+
+<span class="srg-star" style="left:86.75%;top:41.42%;width:3.0px;height:3.0px;animation-duration:5.3s;animation-delay:-6.3s"></span>
+
+<span class="srg-star" style="left:57.29%;top:59.03%;width:2.0px;height:2.0px;animation-duration:5.1s;animation-delay:-5.0s"></span>
+
+<span class="srg-star" style="left:38.02%;top:9.05%;width:1.5px;height:1.5px;animation-duration:6.1s;animation-delay:-1.9s"></span>
+
+<span class="srg-star" style="left:62.26%;top:24.80%;width:2.2px;height:2.2px;animation-duration:4.4s;animation-delay:-7.6s"></span>
+
+<span class="srg-star" style="left:63.36%;top:39.64%;width:1.9px;height:1.9px;animation-duration:8.0s;animation-delay:-0.8s"></span>
+
+<span class="srg-star" style="left:74.64%;top:86.88%;width:1.0px;height:1.0px;animation-duration:6.9s;animation-delay:-0.1s"></span>
+
+<span class="srg-star" style="left:29.45%;top:99.86%;width:1.2px;height:1.2px;animation-duration:3.1s;animation-delay:-0.2s"></span>
+
+<span class="srg-star" style="left:61.10%;top:11.91%;width:1.7px;height:1.7px;animation-duration:4.5s;animation-delay:-3.8s"></span>
+
+<span class="srg-star" style="left:2.94%;top:56.38%;width:1.6px;height:1.6px;animation-duration:7.2s;animation-delay:-5.5s"></span>
+
+<span class="srg-star" style="left:88.30%;top:66.58%;width:2.6px;height:2.6px;animation-duration:7.2s;animation-delay:-0.1s"></span>
+
+<span class="srg-star" style="left:50.51%;top:75.86%;width:1.4px;height:1.4px;animation-duration:6.5s;animation-delay:-6.2s"></span>
+
+<span class="srg-star" style="left:22.90%;top:17.54%;width:3.3px;height:3.3px;animation-duration:7.0s;animation-delay:-2.4s"></span>
+
+<span class="srg-star" style="left:38.81%;top:24.97%;width:1.4px;height:1.4px;animation-duration:4.9s;animation-delay:-7.4s"></span>
+
+<span class="srg-star" style="left:31.58%;top:31.47%;width:2.2px;height:2.2px;animation-duration:8.0s;animation-delay:-7.9s"></span>
+
+<span class="srg-star" style="left:34.53%;top:70.37%;width:1.3px;height:1.3px;animation-duration:6.4s;animation-delay:-6.5s"></span>
+
+<span class="srg-star" style="left:81.00%;top:75.02%;width:1.4px;height:1.4px;animation-duration:8.0s;animation-delay:-6.0s"></span>
+
+<span class="srg-star" style="left:4.32%;top:78.74%;width:1.7px;height:1.7px;animation-duration:8.9s;animation-delay:-0.9s"></span>
+
+<span class="srg-star" style="left:37.82%;top:14.87%;width:1.5px;height:1.5px;animation-duration:5.2s;animation-delay:-2.0s"></span>
+
+<span class="srg-star" style="left:14.85%;top:16.74%;width:1.2px;height:1.2px;animation-duration:4.7s;animation-delay:-3.9s"></span>
+
+<span class="srg-star" style="left:68.72%;top:17.68%;width:1.1px;height:1.1px;animation-duration:3.4s;animation-delay:-1.3s"></span>
+
+<span class="srg-star" style="left:32.78%;top:51.04%;width:1.7px;height:1.7px;animation-duration:3.5s;animation-delay:-4.8s"></span>
+
+<span class="srg-star" style="left:40.36%;top:50.13%;width:2.1px;height:2.1px;animation-duration:6.8s;animation-delay:-1.2s"></span>
+
+<span class="srg-star" style="left:24.80%;top:48.29%;width:2.8px;height:2.8px;animation-duration:3.4s;animation-delay:-1.0s"></span>
+
+<span class="srg-star" style="left:19.41%;top:78.87%;width:1.8px;height:1.8px;animation-duration:7.3s;animation-delay:-7.0s"></span>
+
+<span class="srg-star" style="left:57.55%;top:75.18%;width:1.8px;height:1.8px;animation-duration:8.4s;animation-delay:-5.8s"></span>
+
+<span class="srg-star" style="left:72.54%;top:70.57%;width:2.0px;height:2.0px;animation-duration:8.9s;animation-delay:-0.0s"></span>
+
+<span class="srg-star" style="left:97.71%;top:98.37%;width:1.8px;height:1.8px;animation-duration:4.6s;animation-delay:-0.5s"></span>
+
+<span class="srg-star" style="left:66.40%;top:91.90%;width:1.3px;height:1.3px;animation-duration:3.6s;animation-delay:-1.7s"></span>
+
+<span class="srg-star" style="left:11.94%;top:84.51%;width:1.2px;height:1.2px;animation-duration:7.8s;animation-delay:-6.4s"></span>
+
+<span class="srg-star" style="left:67.67%;top:9.53%;width:1.6px;height:1.6px;animation-duration:7.4s;animation-delay:-1.3s"></span>
+
+<span class="srg-star" style="left:66.92%;top:0.29%;width:2.0px;height:2.0px;animation-duration:4.2s;animation-delay:-5.0s"></span>
+
+<span class="srg-star" style="left:43.01%;top:90.12%;width:1.4px;height:1.4px;animation-duration:6.3s;animation-delay:-4.1s"></span>
+
+<span class="srg-star" style="left:29.30%;top:12.36%;width:1.4px;height:1.4px;animation-duration:3.7s;animation-delay:-1.4s"></span>
+
+<span class="srg-star" style="left:59.10%;top:0.34%;width:1.3px;height:1.3px;animation-duration:4.4s;animation-delay:-7.6s"></span>
+
+<span class="srg-star" style="left:65.75%;top:87.40%;width:1.5px;height:1.5px;animation-duration:4.3s;animation-delay:-1.2s"></span>
+
+<span class="srg-star" style="left:82.59%;top:6.86%;width:2.3px;height:2.3px;animation-duration:5.5s;animation-delay:-0.9s"></span>
+
+<span class="srg-star" style="left:42.95%;top:92.06%;width:1.8px;height:1.8px;animation-duration:4.0s;animation-delay:-1.5s"></span>
+
+<span class="srg-star" style="left:80.16%;top:76.34%;width:1.5px;height:1.5px;animation-duration:7.8s;animation-delay:-5.5s"></span>
+
+<span class="srg-star" style="left:27.55%;top:93.03%;width:1.9px;height:1.9px;animation-duration:6.8s;animation-delay:-7.7s"></span>
+
+<span class="srg-star" style="left:18.47%;top:75.45%;width:2.1px;height:2.1px;animation-duration:3.1s;animation-delay:-2.8s"></span>
+
+<span class="srg-star" style="left:86.23%;top:56.95%;width:1.4px;height:1.4px;animation-duration:4.8s;animation-delay:-1.2s"></span>
+
+<span class="srg-star" style="left:64.18%;top:70.86%;width:1.4px;height:1.4px;animation-duration:7.6s;animation-delay:-5.9s"></span>
+
+<span class="srg-star" style="left:85.65%;top:50.51%;width:1.2px;height:1.2px;animation-duration:7.8s;animation-delay:-3.3s"></span>
+
+<span class="srg-star" style="left:83.97%;top:29.23%;width:1.2px;height:1.2px;animation-duration:7.2s;animation-delay:-4.3s"></span>
+
+<span class="srg-star" style="left:92.48%;top:40.36%;width:1.9px;height:1.9px;animation-duration:7.9s;animation-delay:-3.4s"></span>
+
+<span class="srg-star" style="left:44.50%;top:17.23%;width:1.3px;height:1.3px;animation-duration:5.9s;animation-delay:-3.3s"></span>
+
+<span class="srg-star" style="left:73.38%;top:93.17%;width:2.1px;height:2.1px;animation-duration:3.2s;animation-delay:-6.7s"></span>
+
+<span class="srg-star" style="left:12.44%;top:1.52%;width:2.4px;height:2.4px;animation-duration:7.7s;animation-delay:-0.2s"></span>
+
+<span class="srg-star" style="left:95.02%;top:75.61%;width:1.4px;height:1.4px;animation-duration:3.6s;animation-delay:-2.5s"></span>
+
+<span class="srg-star" style="left:54.45%;top:48.78%;width:1.7px;height:1.7px;animation-duration:4.7s;animation-delay:-0.4s"></span>
+
+<span class="srg-star" style="left:24.07%;top:54.35%;width:1.6px;height:1.6px;animation-duration:7.1s;animation-delay:-4.3s"></span>
+
+<span class="srg-star" style="left:37.20%;top:25.67%;width:1.3px;height:1.3px;animation-duration:6.7s;animation-delay:-1.1s"></span>
+
+<span class="srg-star" style="left:27.19%;top:96.06%;width:1.3px;height:1.3px;animation-duration:5.7s;animation-delay:-1.4s"></span>
+
+<span class="srg-star" style="left:27.36%;top:98.85%;width:1.9px;height:1.9px;animation-duration:5.9s;animation-delay:-7.8s"></span>
+
+<span class="srg-star" style="left:71.05%;top:67.39%;width:2.3px;height:2.3px;animation-duration:3.4s;animation-delay:-7.1s"></span>
+
+<span class="srg-star" style="left:91.59%;top:35.00%;width:1.9px;height:1.9px;animation-duration:6.1s;animation-delay:-1.8s"></span>
+
+<span class="srg-star" style="left:22.32%;top:35.02%;width:2.0px;height:2.0px;animation-duration:4.2s;animation-delay:-2.7s"></span>
+
+<span class="srg-star" style="left:96.57%;top:0.78%;width:2.1px;height:2.1px;animation-duration:5.5s;animation-delay:-4.3s"></span>
+
+<span class="srg-star" style="left:47.67%;top:65.61%;width:1.2px;height:1.2px;animation-duration:6.1s;animation-delay:-1.5s"></span>
+
+<span class="srg-star" style="left:8.95%;top:62.85%;width:2.1px;height:2.1px;animation-duration:8.0s;animation-delay:-4.8s"></span>
+
+<span class="srg-star" style="left:13.75%;top:25.83%;width:1.7px;height:1.7px;animation-duration:7.1s;animation-delay:-0.9s"></span>
+
+<span class="srg-star" style="left:95.41%;top:87.89%;width:1.6px;height:1.6px;animation-duration:5.6s;animation-delay:-0.5s"></span>
+
+<span class="srg-star" style="left:87.24%;top:82.35%;width:2.1px;height:2.1px;animation-duration:5.3s;animation-delay:-6.3s"></span>
+
+<span class="srg-star" style="left:22.60%;top:42.55%;width:1.3px;height:1.3px;animation-duration:8.3s;animation-delay:-4.9s"></span>
+
+<span class="srg-star" style="left:34.81%;top:1.83%;width:1.9px;height:1.9px;animation-duration:4.6s;animation-delay:-6.9s"></span>
+
+<span class="srg-star" style="left:57.21%;top:93.51%;width:2.0px;height:2.0px;animation-duration:8.1s;animation-delay:-7.1s"></span>
+
+<span class="srg-star" style="left:23.12%;top:50.94%;width:1.9px;height:1.9px;animation-duration:8.9s;animation-delay:-0.1s"></span>
+
+<span class="srg-star" style="left:65.88%;top:7.44%;width:2.1px;height:2.1px;animation-duration:3.0s;animation-delay:-4.6s"></span>
+
+<span class="srg-star" style="left:18.83%;top:96.34%;width:1.8px;height:1.8px;animation-duration:4.4s;animation-delay:-7.3s"></span>
+
+<span class="srg-star" style="left:15.30%;top:50.99%;width:1.3px;height:1.3px;animation-duration:3.1s;animation-delay:-2.7s"></span>
+
+<span class="srg-star" style="left:88.62%;top:4.71%;width:1.0px;height:1.0px;animation-duration:7.0s;animation-delay:-1.7s"></span>
+
+<span class="srg-star" style="left:72.13%;top:90.84%;width:2.6px;height:2.6px;animation-duration:6.2s;animation-delay:-6.7s"></span>
+
+<span class="srg-star" style="left:99.15%;top:42.71%;width:1.7px;height:1.7px;animation-duration:8.7s;animation-delay:-4.7s"></span>
+
+<span class="srg-star" style="left:3.03%;top:93.66%;width:1.0px;height:1.0px;animation-duration:4.5s;animation-delay:-6.0s"></span>
+
+<span class="srg-star" style="left:17.09%;top:77.01%;width:1.0px;height:1.0px;animation-duration:7.5s;animation-delay:-5.6s"></span>
+
+<span class="srg-star" style="left:74.67%;top:26.10%;width:2.1px;height:2.1px;animation-duration:7.9s;animation-delay:-5.9s"></span>
+
+<span class="srg-star" style="left:9.10%;top:74.27%;width:3.3px;height:3.3px;animation-duration:7.5s;animation-delay:-1.7s"></span>
+
+<span class="srg-star" style="left:53.72%;top:54.84%;width:1.7px;height:1.7px;animation-duration:8.3s;animation-delay:-3.7s"></span>
+
+<span class="srg-star" style="left:41.85%;top:1.15%;width:1.1px;height:1.1px;animation-duration:6.5s;animation-delay:-6.5s"></span>
+
+<span class="srg-star" style="left:6.84%;top:46.54%;width:3.2px;height:3.2px;animation-duration:3.9s;animation-delay:-4.8s"></span>
+
+<span class="srg-star" style="left:82.01%;top:24.34%;width:1.1px;height:1.1px;animation-duration:8.6s;animation-delay:-1.2s"></span>
+
+<span class="srg-star" style="left:0.70%;top:67.88%;width:1.2px;height:1.2px;animation-duration:4.6s;animation-delay:-6.4s"></span>
+
+<span class="srg-star" style="left:96.25%;top:10.49%;width:1.7px;height:1.7px;animation-duration:5.9s;animation-delay:-7.2s"></span>
+
+<span class="srg-star" style="left:1.97%;top:85.50%;width:2.8px;height:2.8px;animation-duration:8.5s;animation-delay:-6.0s"></span>
+
+<span class="srg-star" style="left:51.22%;top:26.26%;width:1.3px;height:1.3px;animation-duration:8.3s;animation-delay:-5.7s"></span>
+
+<span class="srg-star" style="left:77.32%;top:66.10%;width:1.3px;height:1.3px;animation-duration:7.4s;animation-delay:-0.9s"></span>
+
+<span class="srg-star" style="left:13.60%;top:38.34%;width:1.9px;height:1.9px;animation-duration:7.8s;animation-delay:-2.2s"></span>
+
+<span class="srg-star" style="left:93.40%;top:76.32%;width:2.4px;height:2.4px;animation-duration:5.4s;animation-delay:-4.3s"></span>
+
+<span class="srg-star" style="left:50.06%;top:13.37%;width:2.0px;height:2.0px;animation-duration:8.4s;animation-delay:-1.9s"></span>
+
+<span class="srg-star" style="left:16.90%;top:82.83%;width:1.0px;height:1.0px;animation-duration:6.6s;animation-delay:-5.7s"></span>
+
+<span class="srg-star" style="left:27.25%;top:18.04%;width:1.1px;height:1.1px;animation-duration:8.1s;animation-delay:-2.2s"></span>
+
+<span class="srg-star" style="left:14.46%;top:52.31%;width:1.4px;height:1.4px;animation-duration:8.8s;animation-delay:-2.3s"></span>
+
+<span class="srg-star" style="left:11.86%;top:19.00%;width:1.2px;height:1.2px;animation-duration:4.9s;animation-delay:-0.5s"></span>
+
+<span class="srg-star" style="left:52.77%;top:51.42%;width:2.0px;height:2.0px;animation-duration:4.2s;animation-delay:-7.5s"></span>
+
+<span class="srg-star" style="left:70.54%;top:82.92%;width:1.9px;height:1.9px;animation-duration:8.8s;animation-delay:-2.0s"></span>
+
+<span class="srg-star" style="left:98.49%;top:46.83%;width:1.3px;height:1.3px;animation-duration:8.7s;animation-delay:-2.6s"></span>
+
+<span class="srg-star" style="left:69.96%;top:76.48%;width:1.7px;height:1.7px;animation-duration:5.8s;animation-delay:-4.1s"></span>
+
+<span class="srg-star" style="left:18.28%;top:5.20%;width:1.1px;height:1.1px;animation-duration:8.3s;animation-delay:-1.0s"></span>
+
+<span class="srg-star" style="left:76.78%;top:66.33%;width:1.2px;height:1.2px;animation-duration:6.0s;animation-delay:-4.1s"></span>
+
+</div>
+
+<header style="position: relative; z-index: 5; max-width: 1200px; margin: 0 auto; padding: 22px 24px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 18px">
+<a href="#top" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #FFFFFF">
+<img src="sr-symbol.png" alt="" width="40" height="40" style="width: 40px; height: 40px; display: block">
+<span style="display: flex; flex-direction: column; line-height: 1.15">
+<span class="srg-en" style="font-weight: 600; font-size: 19px">SRGlobal</span>
+<span style="font-size: 12px; color: #9AA5C0; letter-spacing: 0.08em">에스알글러벌</span>
+</span>
+</a>
+<nav aria-label="주 메뉴" style="display: flex; flex-wrap: wrap; align-items: center; gap: 24px; font-size: 14px">
+<a class="srg-navlink" href="#about">회사소개</a>
+<a class="srg-navlink" href="#ga">총무대행</a>
+<a class="srg-navlink" href="#mro">기업 MRO</a>
+<a class="srg-navlink" href="#design">디자인</a>
+<a class="srg-navlink" href="#compare">비교</a>
+<a class="srg-navlink" href="https://blog.naver.com/sesjin1" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 4px">블로그<svg viewBox="0 0 24 24" aria-hidden="true" style="width: 12px; height: 12px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round"><path d="M7 17L17 7M9 7h8v8"></path></svg></a>
+<button type="button" class="srg-btn srg-ghost" data-open-contact style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 20px; border: 1px solid rgba(201,212,255,.4); border-radius: 999px; background: transparent; color: #E8ECF6; font: inherit; font-size: 14px">문의하기</button>
+</nav>
+</header>
+
+<section style="position: relative; z-index: 2; height: 820px; display: flex; align-items: center; justify-content: center">
+<div aria-hidden="true" style="position: absolute; inset: 0; pointer-events: none">
+<div style="position: absolute; inset: 0; transform: perspective(1400px) rotateX(64deg)">
+
+<div class="srg-ring" style="width:180px;height:180px;margin:-90px 0 0 -90px;border:1px solid rgba(160,180,255,0.420);animation-duration:40.0s"></div>
+
+<div class="srg-ring srg-ring-r" style="width:300px;height:300px;margin:-150px 0 0 -150px;border:1px dashed rgba(160,180,255,0.375);animation-duration:62.0s"></div>
+
+<div class="srg-ring" style="width:440px;height:440px;margin:-220px 0 0 -220px;border:1px solid rgba(229,57,75,0.32);animation-duration:84.0s"></div>
+
+<div class="srg-ring srg-ring-r" style="width:600px;height:600px;margin:-300px 0 0 -300px;border:1px dashed rgba(160,180,255,0.285);animation-duration:106.0s"></div>
+
+<div class="srg-ring" style="width:780px;height:780px;margin:-390px 0 0 -390px;border:1px solid rgba(160,180,255,0.240);animation-duration:128.0s"></div>
+
+<div class="srg-ring srg-ring-r" style="width:980px;height:980px;margin:-490px 0 0 -490px;border:1px dashed rgba(160,180,255,0.195);animation-duration:150.0s"></div>
+
+<div class="srg-ring" style="width:1200px;height:1200px;margin:-600px 0 0 -600px;border:1px solid rgba(160,180,255,0.150);animation-duration:172.0s"></div>
+
+</div>
+<div style="position: absolute; left: 50%; top: 50%; width: 0; height: 0">
+
+<div class="srg-orbit" style="transform:rotate(284deg) scaleY(0.51)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:7.9s;animation-delay:-5.3s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(133deg) scaleY(0.46)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:7.0s;animation-delay:-1.3s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(174deg) scaleY(0.39)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:12.0s;animation-delay:-5.6s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(222deg) scaleY(0.45)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:12.4s;animation-delay:-8.9s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(278deg) scaleY(0.44)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:12.6s;animation-delay:-10.0s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(89deg) scaleY(0.44)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:10.8s;animation-delay:-6.9s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(30deg) scaleY(0.49)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:12.4s;animation-delay:-4.4s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(62deg) scaleY(0.48)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:11.5s;animation-delay:-0.2s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(13deg) scaleY(0.47)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:12.6s;animation-delay:-1.4s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(97deg) scaleY(0.52)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:8.5s;animation-delay:-5.6s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(236deg) scaleY(0.46)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:11.3s;animation-delay:-10.5s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(336deg) scaleY(0.48)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:10.8s;animation-delay:-10.6s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(93deg) scaleY(0.40)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:8.3s;animation-delay:-5.8s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(108deg) scaleY(0.39)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:12.7s;animation-delay:-7.8s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(8deg) scaleY(0.50)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:13.1s;animation-delay:-4.0s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(49deg) scaleY(0.42)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:12.4s;animation-delay:-7.1s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(70deg) scaleY(0.42)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:9.2s;animation-delay:-1.4s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(140deg) scaleY(0.38)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:13.1s;animation-delay:-2.5s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(353deg) scaleY(0.45)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:7.3s;animation-delay:-2.7s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(151deg) scaleY(0.42)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:8.5s;animation-delay:-5.4s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(40deg) scaleY(0.43)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:11.2s;animation-delay:-8.0s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(317deg) scaleY(0.52)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:7.6s;animation-delay:-1.2s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(21deg) scaleY(0.41)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:11.0s;animation-delay:-1.6s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(100deg) scaleY(0.51)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:8.2s;animation-delay:-7.9s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(329deg) scaleY(0.48)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:13.9s;animation-delay:-0.4s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(70deg) scaleY(0.39)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:10.4s;animation-delay:-8.0s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(349deg) scaleY(0.50)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:11.7s;animation-delay:-0.0s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(61deg) scaleY(0.49)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:12.8s;animation-delay:-0.8s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(328deg) scaleY(0.38)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:7.2s;animation-delay:-4.2s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(97deg) scaleY(0.41)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:8.0s;animation-delay:-7.5s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(263deg) scaleY(0.42)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:11.9s;animation-delay:-4.1s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(106deg) scaleY(0.39)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:9.1s;animation-delay:-6.1s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(94deg) scaleY(0.38)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:12.0s;animation-delay:-10.0s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(243deg) scaleY(0.43)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:11.8s;animation-delay:-11.3s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(152deg) scaleY(0.43)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:9.6s;animation-delay:-1.1s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(11deg) scaleY(0.44)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:10.1s;animation-delay:-8.0s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(32deg) scaleY(0.38)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:13.0s;animation-delay:-12.8s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(138deg) scaleY(0.51)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:9.3s;animation-delay:-0.0s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(236deg) scaleY(0.45)"><span class="srg-p" style="background:#DDE5FF;box-shadow:0 0 6px rgba(170,190,255,.9);animation-duration:9.9s;animation-delay:-8.7s"></span></div>
+
+<div class="srg-orbit" style="transform:rotate(21deg) scaleY(0.43)"><span class="srg-p" style="background:#FF8A97;box-shadow:0 0 6px rgba(229,57,75,.9);animation-duration:9.2s;animation-delay:-4.7s"></span></div>
+
+</div>
+<div class="srg-core" style="position: absolute; left: 50%; top: 50%; width: 220px; height: 220px; margin: -110px 0 0 -110px; border-radius: 50%; background: radial-gradient(circle, #000000 0%, #000000 34%, rgba(110,130,230,.22) 52%, rgba(4,6,13,0) 72%)"></div>
+</div>
+<div style="position: relative; max-width: 900px; padding: 0 24px; text-align: center; display: flex; flex-direction: column; align-items: center; gap: 26px">
+<p class="srg-eyebrow" style="font-size: 13px">총무대행  ·  기업 MRO  ·  상업디자인</p>
+<h1 style="margin: 0; font-size: clamp(38px, 6.2vw, 80px); line-height: 1.18; font-weight: 700; letter-spacing: -0.03em; color: #FFFFFF; text-shadow: 0 0 40px rgba(4,6,13,.9)">흩어진 총무 업무를<br>하나의 궤도로.</h1>
+<p style="margin: 0; font-size: clamp(15px, 1.5vw, 18px); font-weight: 300; color: #C3CBE0; text-shadow: 0 0 24px rgba(4,6,13,1)">귀사는 본업에 집중하세요. 나머지는 에스알글러벌이 맡습니다.</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 4px">
+<button type="button" class="srg-btn" data-open-contact style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 30px; border: 0; border-radius: 999px; background: #DCE3FF; color: #04060D; font: inherit; font-weight: 500; font-size: 15px">도입 상담 신청</button>
+<a class="srg-ghost" href="#ga" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 30px; border-radius: 999px; border: 1px solid rgba(201,212,255,.35); color: #DCE3FF; text-decoration: none; font-size: 15px">서비스 둘러보기</a>
+</div>
+</div>
+</section>
+
+<section id="figures" class="srg-wrap" style="padding-top: 10px; padding-bottom: 30px">
+<div class="srg-line"></div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))">
+<div style="padding: 32px 20px 32px 0; display: flex; flex-direction: column; gap: 4px"><span class="srg-en" style="font-size: clamp(40px, 4.6vw, 58px); font-weight: 500; color: #FFFFFF; line-height: 1.1"><span data-count="2009" data-from="1990">2009</span></span><span style="font-size: 14px; color: #A9B3CB">창업 연도</span></div>
+<div style="padding: 32px 20px 32px 0; display: flex; flex-direction: column; gap: 4px"><span class="srg-en" style="font-size: clamp(40px, 4.6vw, 58px); font-weight: 500; color: #FFFFFF; line-height: 1.1"><span data-count="120" data-from="0">120</span><span style="font-size: .42em; color: #9FB0E8; margin-left: 6px">개사</span></span><span style="font-size: 14px; color: #A9B3CB">총무업무 수임 거래처 (2026)</span></div>
+<div style="padding: 32px 20px 32px 0; display: flex; flex-direction: column; gap: 4px"><span class="srg-en" style="font-size: clamp(40px, 4.6vw, 58px); font-weight: 500; color: #FFFFFF; line-height: 1.1"><span data-count="25000" data-from="0">25,000</span><span style="font-size: .42em; color: #9FB0E8; margin-left: 6px">+</span></span><span style="font-size: 14px; color: #A9B3CB">MRO 취급 상품</span></div>
+<div style="padding: 32px 0; display: flex; flex-direction: column; gap: 4px"><span class="srg-en" style="font-size: clamp(40px, 4.6vw, 58px); font-weight: 500; color: #FFFFFF; line-height: 1.1"><span data-count="11" data-from="0">11</span><span style="font-size: .42em; color: #9FB0E8; margin-left: 6px">개 영역</span></span><span style="font-size: 14px; color: #A9B3CB">총무 대행 업무</span></div>
+</div>
+<div class="srg-line" style="opacity: .3"></div>
+</section>
+
+<section id="about" class="srg-wrap" style="padding-top: 110px; padding-bottom: 40px">
+<div class="srg-reveal" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-end; gap: 24px; margin-bottom: 44px">
+<div style="display: flex; flex-direction: column; gap: 14px">
+<p class="srg-en" style="margin: 0; display: inline-flex; align-items: center; gap: 12px; font-size: 15px; font-weight: 600; letter-spacing: 0.3em"><span style="width: 28px; height: 2px; background: linear-gradient(90deg,#7E95F0,#F0596A)"></span><span style="background: linear-gradient(90deg,#8FA4FF 0%,#C08BE0 50%,#FF7A8A 100%); -webkit-background-clip: text; background-clip: text; color: transparent">01 — GROWTH</span></p>
+<h2 class="srg-h2">고객사와 함께 넓혀 온 궤도</h2>
+</div>
+<div style="display: flex; gap: 18px; font-size: 13px; color: #A9B3CB">
+<span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 18px; height: 2px; background: #9FB0E8"></span>총무업무 수임 거래처 수</span>
+<span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 8px; height: 8px; border-radius: 50%; background: #F0596A"></span>주요 이정표</span>
+</div>
+</div>
+<div class="srg-reveal" style="overflow-x: auto; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(8,12,26,.6); padding: 28px 20px 12px">
+<svg role="img" aria-label="연도별 총무업무 수임 거래처 수: 2016년 32개사, 2018년 32개사, 2024년 70개사, 2026년 120개사" viewBox="0 0 1000 350" style="width: 100%; min-width: 720px; height: auto; display: block; font-family: 'Noto Sans KR', sans-serif">
+<defs>
+<linearGradient id="srgArea" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6F86E8" stop-opacity="0.35"></stop><stop offset="1" stop-color="#6F86E8" stop-opacity="0"></stop></linearGradient>
+<linearGradient id="srgStroke" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6F86E8"></stop><stop offset="1" stop-color="#F0596A"></stop></linearGradient>
+</defs>
+<g stroke="rgba(160,180,255,.1)" stroke-width="1">
+<line x1="60" y1="40" x2="960" y2="40"></line><line x1="60" y1="113" x2="960" y2="113"></line><line x1="60" y1="187" x2="960" y2="187"></line><line x1="60" y1="260" x2="960" y2="260"></line>
+</g>
+<g fill="#8C97B3" font-size="12" text-anchor="end"><text x="48" y="44">120</text><text x="48" y="117">80</text><text x="48" y="191">40</text><text x="48" y="264">0</text></g>
+<path class="srg-chartarea" d="M422 260 V201 H526 L836 132 L940 40 V260 Z" fill="url(#srgArea)"></path>
+<path class="srg-chartline" d="M60 260 H422 V201 H526 L836 132 L940 40" fill="none" stroke="url(#srgStroke)" stroke-width="2.5" stroke-linejoin="round"></path>
+<g fill="#04060D" stroke="#DCE3FF" stroke-width="2"><circle cx="422" cy="201" r="5"></circle><circle cx="526" cy="201" r="5"></circle><circle cx="836" cy="132" r="5"></circle></g>
+<circle cx="940" cy="40" r="7" fill="#F0596A" stroke="#FFFFFF" stroke-width="2"></circle>
+<g fill="#FFFFFF" font-size="17" font-weight="700" text-anchor="middle"><text x="422" y="184">32</text><text x="526" y="184">32</text><text x="836" y="115">70</text></g>
+<text x="940" y="24" fill="#FFFFFF" font-size="20" font-weight="700" text-anchor="end">120개사</text>
+<g fill="#F0596A"><circle cx="60" cy="260" r="5"></circle><circle cx="319" cy="260" r="5"></circle><circle cx="474" cy="260" r="5"></circle></g>
+<g fill="#C9D4FF" font-size="13" text-anchor="middle" font-weight="700">
+<text x="60" y="290">2009</text><text x="319" y="290">2014</text><text x="422" y="290">2016</text><text x="474" y="318">2017</text><text x="526" y="290">2018</text><text x="836" y="290">2024</text><text x="940" y="290">2026</text>
+</g>
+<g fill="#8C97B3" font-size="12" text-anchor="middle">
+<text x="80" y="310">창업</text><text x="319" y="310">경영컨설팅</text><text x="408" y="310">총무대행 시작</text><text x="474" y="338">MRO 확장 · 사이트 구축</text><text x="566" y="310">디자인 장기계약</text><text x="836" y="310">70개사</text><text x="926" y="310">120개사 수임</text>
+</g>
+</svg>
+</div>
+
+<div class="srg-reveal" style="margin-top: 28px; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px">
+
+<div class="srg-card" style="display: flex; align-items: center; gap: 16px; padding: 20px 22px; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55)">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18A6 6 0 1 0 9 6a6 6 0 0 0 0 12zM15 18a6 6 0 1 0 0-12 6 6 0 0 0 0 12z"></path></svg>
+<div style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-size: 16px; font-weight: 500; color: #FFFFFF">협업을 통한 상생</span><span style="font-size: 12px; color: #8C97B3">고객 · 거래처 공동의 이익</span></div>
+</div>
+
+<div class="srg-card" style="display: flex; align-items: center; gap: 16px; padding: 20px 22px; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55)">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"></path></svg>
+<div style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-size: 16px; font-weight: 500; color: #FFFFFF">신뢰 기반 서비스</span><span style="font-size: 12px; color: #8C97B3">최고의 제품과 서비스</span></div>
+</div>
+
+<div class="srg-card" style="display: flex; align-items: center; gap: 16px; padding: 20px 22px; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55)">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5"></path></svg>
+<div style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-size: 16px; font-weight: 500; color: #FFFFFF">더 나은 가치</span><span style="font-size: 12px; color: #8C97B3">새로운 방식 제안</span></div>
+</div>
+
+<div class="srg-card" style="display: flex; align-items: center; gap: 16px; padding: 20px 22px; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55)">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2L4 14h7l-1 8 9-12h-7z"></path></svg>
+<div style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-size: 16px; font-weight: 500; color: #FFFFFF">SPEED</span><span style="font-size: 12px; color: #8C97B3">한발 앞선 제안 · 납품</span></div>
+</div>
+
+</div>
+<div class="srg-reveal" style="margin-top: 18px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px">
+<span class="srg-en" style="font-size: 11px; letter-spacing: 0.22em; color: #8C97B3; margin-right: 6px">CERTIFIED</span>
+<span style="font-size: 13px; color: #DCE3FF; padding: 6px 12px; border: 1px solid rgba(160,180,255,.22); border-radius: 999px">장애인기업</span>
+<span style="font-size: 13px; color: #DCE3FF; padding: 6px 12px; border: 1px solid rgba(160,180,255,.22); border-radius: 999px">중소기업</span>
+<span style="font-size: 13px; color: #DCE3FF; padding: 6px 12px; border: 1px solid rgba(160,180,255,.22); border-radius: 999px">통신판매업</span>
+</div>
+</section>
+
+<section id="ga" class="srg-wrap" style="padding-top: 120px; padding-bottom: 40px">
+<div class="srg-reveal" style="display: flex; flex-direction: column; gap: 14px; margin-bottom: 44px">
+<p class="srg-eyebrow">02 — GENERAL AFFAIRS</p>
+<h2 class="srg-h2">총무 업무, 11개 영역을 통째로</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 40px; align-items: center">
+<div class="srg-reveal" style="display: flex; flex-direction: column; align-items: center; gap: 22px">
+<div style="position: relative; width: min(280px, 100%); aspect-ratio: 1 / 1">
+<svg viewBox="0 0 200 200" role="img" aria-label="대행 업무 11개 영역 중 운영·공간 6개, 행정·인사 5개" style="width: 100%; height: 100%; transform: rotate(-90deg)">
+<circle cx="100" cy="100" r="80" fill="none" stroke="rgba(160,180,255,.12)" stroke-width="18"></circle>
+<circle cx="100" cy="100" r="80" fill="none" stroke="#6F86E8" stroke-width="18" stroke-dasharray="270.4 232.3"></circle>
+<circle cx="100" cy="100" r="80" fill="none" stroke="#F0596A" stroke-width="18" stroke-dasharray="223.2 279.5" stroke-dashoffset="-274.4"></circle>
+</svg>
+<div aria-hidden="true" class="srg-spin-slow" style="position: absolute; inset: -6%; border-radius: 50%; border: 1px dashed rgba(160,180,255,.25)"></div>
+<div style="position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center"><span class="srg-en" style="font-size: 54px; font-weight: 500; color: #FFFFFF; line-height: 1">11</span><span style="font-size: 13px; color: #A9B3CB">대행 영역</span></div>
+</div>
+<div style="display: flex; gap: 22px; font-size: 14px; color: #DCE3FF">
+<span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 10px; height: 10px; border-radius: 50%; background: #6F86E8"></span>운영 · 공간 6</span>
+<span style="display: inline-flex; align-items: center; gap: 8px"><span style="width: 10px; height: 10px; border-radius: 50%; background: #F0596A"></span>행정 · 인사 5</span>
+</div>
+</div>
+<div class="srg-reveal" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 12px">
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(111,134,232,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#9FB0E8"><path d="M4 21V5l8-3 8 3v16M2 21h20M9 9h2M13 9h2M9 13h2M13 13h2M10 21v-4h4v4"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">01</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">사무환경 관리</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">이전 · 인테리어 · LAN</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(111,134,232,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#9FB0E8"><path d="M14.5 6.5a4 4 0 0 0-5.3 5.3L3 18l3 3 6.2-6.2a4 4 0 0 0 5.3-5.3l-2.5 2.5-2.5-.5-.5-2.5z"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">02</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">시설 관리</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">냉난방 · 서버실 방음공사</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(111,134,232,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#9FB0E8"><path d="M3 7l9-4 9 4v10l-9 4-9-4zM3 7l9 4 9-4M12 11v10"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">03</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">자산관리 지원</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">재물실사 · 집기 · 비품</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(111,134,232,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#9FB0E8"><path d="M4 20l4-1 11-11-3-3L5 16zM14 6l3 3"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">04</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">디자인 제안</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">3D · 인쇄물 · 단체복</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(111,134,232,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#9FB0E8"><path d="M3 4h2l2.5 11h10L20 7H6.5M9 20h.01M17 20h.01"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">05</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">소모품 납품</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">MRO 폐쇄몰</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(111,134,232,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#9FB0E8"><path d="M4 6h16v14H4zM4 10h16M8 3v4M16 3v4M9 15l2 2 4-4"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">06</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">행사 지원</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">장소 섭외 · 판촉물</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(240,89,106,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#F08A96"><path d="M6 3h8l4 4v14H6zM14 3v4h4M9 12h6M9 16h6"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">07</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">사무 지원</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">서류 · 근태 · 경조사</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(240,89,106,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#F08A96"><path d="M3 13l2-6h14l2 6v5H3zM3 13h18M7 18v2M17 18v2"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">08</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">렌탈 · 리스 · 보험</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">복합기 · 차량 · 보험</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(240,89,106,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#F08A96"><path d="M2 9l10-5 10 5-10 5zM6 11v5c3 2 9 2 12 0v-5"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">09</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">복무 교육</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">OJT · 법정교육</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(240,89,106,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#F08A96"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM4 21c1-4 4-6 8-6s7 2 8 6"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">10</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">대외 업무</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">호텔 · 차량 의전</span>
+</div>
+
+<div class="srg-card" style="display:flex;flex-direction:column;gap:8px;padding:16px;border-radius:6px;background:rgba(10,14,30,.6);border:1px solid rgba(240,89,106,.28)">
+<div style="display: flex; justify-content: space-between; align-items: flex-start"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width:26px;height:26px;stroke:#F08A96"><path d="M5 21h14M6 17h12v4H6zM10 17v-4a2 2 0 1 1 4 0v4M9 7a3 3 0 1 1 6 0"></path></svg><span class="srg-en" style="font-size: 11px; color: #6E7898">11</span></div>
+<span style="font-size: 15px; font-weight: 500; color: #FFFFFF">기타 행정</span>
+<span style="font-size: 12px; color: #8C97B3; line-height: 1.4">전표 · 품의 · 증명서</span>
+</div>
+
+</div>
+</div>
+
+<div class="srg-reveal" style="margin-top: 72px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 0; border-top: 1px solid rgba(160,180,255,.14); border-bottom: 1px solid rgba(160,180,255,.14)">
+
+<div style="display: flex; align-items: center; gap: 16px; padding: 26px 20px 26px 0">
+<span style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 1px solid rgba(160,180,255,.3); display: flex; align-items: center; justify-content: center"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 24px; height: 24px"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 16a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path></svg></span>
+<div style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-size: 16px; font-weight: 500; color: #FFFFFF">업무 효율성</span><span style="font-size: 13px; color: #8C97B3">핵심 업무에 집중</span></div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 16px; padding: 26px 20px 26px 0">
+<span style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 1px solid rgba(160,180,255,.3); display: flex; align-items: center; justify-content: center"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 24px; height: 24px"><path d="M12 15a6 6 0 1 0 0-12 6 6 0 0 0 0 12zM8.5 14L7 22l5-3 5 3-1.5-8"></path></svg></span>
+<div style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-size: 16px; font-weight: 500; color: #FFFFFF">전문성</span><span style="font-size: 13px; color: #8C97B3">다년간의 대행 경험</span></div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 16px; padding: 26px 20px 26px 0">
+<span style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 1px solid rgba(160,180,255,.3); display: flex; align-items: center; justify-content: center"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 24px; height: 24px"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM15 9h-4a1.5 1.5 0 0 0 0 3h2a1.5 1.5 0 0 1 0 3H9M12 7v10"></path></svg></span>
+<div style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-size: 16px; font-weight: 500; color: #FFFFFF">비용 절약</span><span style="font-size: 13px; color: #8C97B3">인건비 · 고정비 최소화</span></div>
+</div>
+
+<div style="display: flex; align-items: center; gap: 16px; padding: 26px 20px 26px 0">
+<span style="width: 52px; height: 52px; flex: none; border-radius: 50%; border: 1px solid rgba(160,180,255,.3); display: flex; align-items: center; justify-content: center"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 24px; height: 24px"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"></path></svg></span>
+<div style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-size: 16px; font-weight: 500; color: #FFFFFF">적재적소</span><span style="font-size: 13px; color: #8C97B3">연간 계약 · 유연한 조정</span></div>
+</div>
+
+</div>
+
+<div class="srg-reveal" style="margin-top: 36px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px">
+<span style="font-size: 13px; color: #8C97B3; margin-right: 4px">건물관리 연계 지원</span>
+
+<span style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #A9B3CB; padding: 6px 12px; border: 1px solid rgba(160,180,255,.14); border-radius: 999px"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 14px; height: 14px; stroke: #8C97B3"><path d="M14.5 6.5a4 4 0 0 0-5.3 5.3L3 18l3 3 6.2-6.2a4 4 0 0 0 5.3-5.3l-2.5 2.5-2.5-.5-.5-2.5z"></path></svg>시설물 순회관리</span>
+
+<span style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #A9B3CB; padding: 6px 12px; border: 1px solid rgba(160,180,255,.14); border-radius: 999px"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 14px; height: 14px; stroke: #8C97B3"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"></path></svg>미화 관리</span>
+
+<span style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #A9B3CB; padding: 6px 12px; border: 1px solid rgba(160,180,255,.14); border-radius: 999px"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 14px; height: 14px; stroke: #8C97B3"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"></path></svg>보안 관리</span>
+
+<span style="display: inline-flex; align-items: center; gap: 6px; font-size: 13px; color: #A9B3CB; padding: 6px 12px; border: 1px solid rgba(160,180,255,.14); border-radius: 999px"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 14px; height: 14px; stroke: #8C97B3"><path d="M5 3h14v18H5zM10 17V7h3a3 3 0 0 1 0 6h-3"></path></svg>주차 관리</span>
+
+</div>
+</section>
+
+<section id="mro" class="srg-wrap" style="padding-top: 120px; padding-bottom: 40px">
+<div class="srg-reveal" style="display: flex; flex-direction: column; gap: 14px; margin-bottom: 44px">
+<p class="srg-eyebrow">03 — CORPORATE MRO</p>
+<h2 class="srg-h2">주문부터 세금계산서까지, 한 번에</h2>
+</div>
+
+<div class="srg-reveal" style="border: 1px solid rgba(160,180,255,.16); border-radius: 6px; padding: clamp(22px, 4vw, 44px); background: rgba(8,12,26,.7)">
+<div style="overflow-x: auto">
+<div style="min-width: 760px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; align-items: center">
+<div style="display: flex; flex-direction: column"><span class="srg-en" style="font-size: 12px; color: #9FB0E8">ORDER</span><span style="font-size: 15px; color: #FFFFFF; font-weight: 500">고객사 주문</span></div>
+<div style="position: relative">
+<div aria-hidden="true" style="position: absolute; left: 6%; right: 6%; top: 50%; height: 1px; background: rgba(160,180,255,.25)"><span class="srg-traveler" style="animation-duration: 4.5s"></span></div>
+<div style="position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px">
+
+<span style="justify-self:center;display:inline-flex;align-items:center;gap:8px;font-size:14px;border-radius:999px;padding:10px 18px;background:#0B1022;color:#E8ECF6;border:1px solid rgba(160,180,255,.3)"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; stroke: currentColor"><path d="M11 18a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM21 21l-5-5"></path></svg>상품 검색</span>
+
+<span style="justify-self:center;display:inline-flex;align-items:center;gap:8px;font-size:14px;border-radius:999px;padding:10px 18px;background:#0B1022;color:#E8ECF6;border:1px solid rgba(160,180,255,.3)"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; stroke: currentColor"><path d="M3 4h2l2.5 11h10L20 7H6.5M9 20h.01M17 20h.01"></path></svg>상품 선택</span>
+
+<span style="justify-self:center;display:inline-flex;align-items:center;gap:8px;font-size:14px;border-radius:999px;padding:10px 18px;background:#0B1022;color:#E8ECF6;border:1px solid rgba(160,180,255,.3)"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; stroke: currentColor"><path d="M6 3h8l4 4v14H6zM14 3v4h4M9 12h6M9 16h6"></path></svg>주문하기</span>
+
+<span style="justify-self:center;display:inline-flex;align-items:center;gap:8px;font-size:14px;border-radius:999px;padding:10px 18px;background:#DCE3FF;color:#04060D;font-weight:500"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; stroke: currentColor"><path d="M5 12l5 5 9-10"></path></svg>관리자 승인</span>
+
+</div>
+</div>
+</div>
+<div style="display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 24px; align-items: center">
+<div style="display: flex; flex-direction: column"><span class="srg-en" style="font-size: 12px; color: #F08A96">DELIVERY</span><span style="font-size: 15px; color: #FFFFFF; font-weight: 500">에스알글러벌 공급</span></div>
+<div style="position: relative">
+<div aria-hidden="true" style="position: absolute; left: 6%; right: 6%; top: 50%; height: 1px; background: rgba(229,57,75,.3)"><span class="srg-traveler" style="animation-duration: 4.5s; animation-delay: -2.2s"></span></div>
+<div style="position: relative; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px">
+
+<span style="justify-self:center;display:inline-flex;align-items:center;gap:8px;font-size:14px;border-radius:999px;padding:10px 18px;background:#0B1022;color:#E8ECF6;border:1px solid rgba(229,57,75,.38)"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; stroke: currentColor"><path d="M2 6h12v10H2zM14 9h4l3 3v4h-7M6 19h.01M17 19h.01"></path></svg>납품</span>
+
+<span style="justify-self:center;display:inline-flex;align-items:center;gap:8px;font-size:14px;border-radius:999px;padding:10px 18px;background:#0B1022;color:#E8ECF6;border:1px solid rgba(229,57,75,.38)"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; stroke: currentColor"><path d="M3 13l3-8h12l3 8v6H3zM3 13h5l1 3h6l1-3h5"></path></svg>입고</span>
+
+<span style="justify-self:center;display:inline-flex;align-items:center;gap:8px;font-size:14px;border-radius:999px;padding:10px 18px;background:#0B1022;color:#E8ECF6;border:1px solid rgba(229,57,75,.38)"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; stroke: currentColor"><path d="M6 3h8l4 4v14H6zM14 3v4h4M9 12h6M9 16h6"></path></svg>거래명세서</span>
+
+<span style="justify-self:center;display:inline-flex;align-items:center;gap:8px;font-size:14px;border-radius:999px;padding:10px 18px;background:#0B1022;color:#E8ECF6;border:1px solid rgba(229,57,75,.38)"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; stroke: currentColor"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2zM9 8h6M9 12h6"></path></svg>세금계산서</span>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="srg-reveal" style="margin-top: 28px; overflow: hidden; padding: 6px 0">
+<div class="srg-marquee-track" aria-label="취급 품목">
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">사무용품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">청소용품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">비품용품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">식음료</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">산업안전용품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">맞춤형 제작상품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">OA기자재</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">판촉물</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">홍보물 인쇄</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">단체복</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">다이어리 · 달력</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">간접자재</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">사무용품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">청소용품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">비품용품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">식음료</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">산업안전용품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">맞춤형 제작상품</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">OA기자재</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">판촉물</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">홍보물 인쇄</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">단체복</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">다이어리 · 달력</span>
+
+<span style="flex: none; font-size: 14px; color: #C9D4FF; padding: 10px 20px; border: 1px solid rgba(160,180,255,.18); border-radius: 999px; white-space: nowrap">간접자재</span>
+
+</div>
+</div>
+
+<div style="margin-top: 64px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 40px; align-items: end">
+<div class="srg-reveal" style="display: flex; flex-direction: column; gap: 18px">
+<h3 style="margin: 0; font-size: 20px; color: #FFFFFF">도입 효과</h3>
+<div style="display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px">
+
+<div class="srg-card" style="aspect-ratio: 1 / 1; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; padding: 8px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 26px; height: 26px"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2"></path></svg>
+<span style="font-size: 13px; color: #E8ECF6; line-height: 1.3">시간 단축</span>
+</div>
+
+<div class="srg-card" style="aspect-ratio: 1 / 1; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; padding: 8px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 26px; height: 26px"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12zM12 15a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"></path></svg>
+<span style="font-size: 13px; color: #E8ECF6; line-height: 1.3">투명성</span>
+</div>
+
+<div class="srg-card" style="aspect-ratio: 1 / 1; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; padding: 8px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 26px; height: 26px"><path d="M4 20V10M10 20V4M16 20v-7M2 20h20"></path></svg>
+<span style="font-size: 13px; color: #E8ECF6; line-height: 1.3">예산 관리</span>
+</div>
+
+<div class="srg-card" style="aspect-ratio: 1 / 1; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; padding: 8px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 26px; height: 26px"><path d="M2 6h12v10H2zM14 9h4l3 3v4h-7M6 19h.01M17 19h.01"></path></svg>
+<span style="font-size: 13px; color: #E8ECF6; line-height: 1.3">납기 관리</span>
+</div>
+
+<div class="srg-card" style="aspect-ratio: 1 / 1; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; padding: 8px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 26px; height: 26px"><path d="M6 3h8l4 4v14H6zM14 3v4h4M9 12h6M9 16h6"></path></svg>
+<span style="font-size: 13px; color: #E8ECF6; line-height: 1.3">서류 간소화</span>
+</div>
+
+<div class="srg-card" style="aspect-ratio: 1 / 1; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; padding: 8px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 26px; height: 26px"><path d="M3 9h18v4H3zM5 13h14v8H5zM12 9v12M12 9C10 5 6 5 6 8s4 1 6 1M12 9c2-4 6-4 6-1s-4 1-6 1"></path></svg>
+<span style="font-size: 13px; color: #E8ECF6; line-height: 1.3">주문 제작</span>
+</div>
+
+<div class="srg-card" style="aspect-ratio: 1 / 1; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; padding: 8px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 26px; height: 26px"><path d="M12 3l9 5-9 5-9-5zM3 13l9 5 9-5"></path></svg>
+<span style="font-size: 13px; color: #E8ECF6; line-height: 1.3">25,000+ 상품</span>
+</div>
+
+<div class="srg-card" style="aspect-ratio: 1 / 1; border: 1px solid rgba(160,180,255,.14); border-radius: 6px; background: rgba(10,14,30,.55); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; padding: 8px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 26px; height: 26px"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM15 9h-4a1.5 1.5 0 0 0 0 3h2a1.5 1.5 0 0 1 0 3H9M12 7v10"></path></svg>
+<span style="font-size: 13px; color: #E8ECF6; line-height: 1.3">비용 절감</span>
+</div>
+
+</div>
+</div>
+<div class="srg-reveal" style="display: flex; flex-direction: column; gap: 18px">
+<h3 style="margin: 0; font-size: 20px; color: #FFFFFF">취급 범위</h3>
+<div style="display: flex; flex-direction: column; gap: 14px">
+
+<div style="display: grid; grid-template-columns: 110px minmax(0, 1fr) 44px; gap: 14px; align-items: center">
+<span style="font-size: 14px; color: #E8ECF6">소모성 자재</span>
+<div style="height: 10px; border-radius: 999px; background: rgba(160,180,255,.1); overflow: hidden"><div style="height:100%;width:30%;border-radius:999px;background:linear-gradient(90deg,#4C6BE0,#E5394B)"></div></div>
+<span class="srg-en" style="font-size: 13px; color: #9FB0E8; text-align: right">범용</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 110px minmax(0, 1fr) 44px; gap: 14px; align-items: center">
+<span style="font-size: 14px; color: #E8ECF6">부자재</span>
+<div style="height: 10px; border-radius: 999px; background: rgba(160,180,255,.1); overflow: hidden"><div style="height:100%;width:55%;border-radius:999px;background:linear-gradient(90deg,#4C6BE0,#E5394B)"></div></div>
+<span class="srg-en" style="font-size: 13px; color: #9FB0E8; text-align: right">정기</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 110px minmax(0, 1fr) 44px; gap: 14px; align-items: center">
+<span style="font-size: 14px; color: #E8ECF6">맞춤형 상품</span>
+<div style="height: 10px; border-radius: 999px; background: rgba(160,180,255,.1); overflow: hidden"><div style="height:100%;width:80%;border-radius:999px;background:linear-gradient(90deg,#4C6BE0,#E5394B)"></div></div>
+<span class="srg-en" style="font-size: 13px; color: #9FB0E8; text-align: right">1:1</span>
+</div>
+
+<div style="display: grid; grid-template-columns: 110px minmax(0, 1fr) 44px; gap: 14px; align-items: center">
+<span style="font-size: 14px; color: #E8ECF6">구매 컨설팅</span>
+<div style="height: 10px; border-radius: 999px; background: rgba(160,180,255,.1); overflow: hidden"><div style="height:100%;width:100%;border-radius:999px;background:linear-gradient(90deg,#4C6BE0,#E5394B)"></div></div>
+<span class="srg-en" style="font-size: 13px; color: #9FB0E8; text-align: right">최적화</span>
+</div>
+
+</div>
+<p style="margin: 0; font-size: 12px; color: #6E7898">막대는 품목 성격(범용성 → 맞춤도)을 나타낸 개념도입니다.</p>
+</div>
+</div>
+</section>
+
+<section id="design" class="srg-wrap" style="padding-top: 120px; padding-bottom: 40px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 48px; align-items: center">
+<div class="srg-reveal" style="display: flex; flex-direction: column; gap: 18px">
+<p class="srg-eyebrow">04 — COMMERCIAL DESIGN</p>
+<h2 class="srg-h2">브랜드의 모든 접점을<br>하나의 아이덴티티로</h2>
+<div style="margin-top: 10px; max-width: 460px; border: 1px solid rgba(229,57,75,.35); border-radius: 8px; padding: 20px 22px; background: rgba(40,14,24,.35); display: flex; flex-direction: column; gap: 14px">
+<div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+<span style="font-size: 12px; color: #FFB3BC; padding: 4px 10px; border: 1px solid rgba(240,89,106,.5); border-radius: 999px">대기업 장기 계약 수주</span>
+<span style="display: inline-flex; align-items: center; gap: 6px; font-size: 12px; color: #C9D4FF"><span style="width: 7px; height: 7px; border-radius: 50%; background: #5FE0A0; box-shadow: 0 0 8px #5FE0A0"></span>현재 수행 중</span>
+</div>
+<div style="display: flex; align-items: baseline; gap: 14px">
+<span class="srg-en" style="font-size: 46px; font-weight: 500; color: #FFFFFF; line-height: 1">3<span style="font-size: 16px; color: #F08A96; margin-left: 4px">년</span></span>
+<span style="font-size: 15px; color: #E8ECF6; line-height: 1.45">대형 의류 유통 대기업<br>디자인 대행 · 납품 장기 계약</span>
+</div>
+</div>
+</div>
+<div class="srg-reveal" style="position: relative; width: min(460px, 100%); aspect-ratio: 1 / 1; justify-self: center">
+<div aria-hidden="true" class="srg-spin-slow" style="position: absolute; inset: 9%; border-radius: 50%; border: 1px dashed rgba(160,180,255,.35)">
+<span style="position: absolute; left: 50%; top: -5px; width: 10px; height: 10px; margin-left: -5px; border-radius: 50%; background: #F0596A; box-shadow: 0 0 16px 4px rgba(229,57,75,.6)"></span>
+</div>
+<div aria-hidden="true" style="position: absolute; inset: 30%; border-radius: 50%; border: 1px solid rgba(160,180,255,.18)"></div>
+<div style="position: absolute; left: 50%; top: 50%; width: 128px; height: 128px; margin: -64px 0 0 -64px; border-radius: 50%; background: #DCE3FF; color: #04060D; display: flex; align-items: center; justify-content: center; text-align: center; box-shadow: 0 0 60px rgba(150,170,255,.35)">
+<span class="srg-en" style="font-size: 13px; font-weight: 600; line-height: 1.25">Corporate<br>Identity</span>
+</div>
+
+<span style="position:absolute;left:50.00%;top:9.00%;transform:translate(-50%,-50%);white-space:nowrap;font-size:13px;color:#E8ECF6;background:#0B1022;border:1px solid rgba(160,180,255,.3);border-radius:999px;padding:8px 14px">로고 디자인</span>
+
+<span style="position:absolute;left:85.51%;top:29.50%;transform:translate(-50%,-50%);white-space:nowrap;font-size:13px;color:#E8ECF6;background:#0B1022;border:1px solid rgba(160,180,255,.3);border-radius:999px;padding:8px 14px">브랜드 디자인</span>
+
+<span style="position:absolute;left:85.51%;top:70.50%;transform:translate(-50%,-50%);white-space:nowrap;font-size:13px;color:#E8ECF6;background:#0B1022;border:1px solid rgba(160,180,255,.3);border-radius:999px;padding:8px 14px">홍보물 디자인</span>
+
+<span style="position:absolute;left:50.00%;top:91.00%;transform:translate(-50%,-50%);white-space:nowrap;font-size:13px;color:#E8ECF6;background:#0B1022;border:1px solid rgba(160,180,255,.3);border-radius:999px;padding:8px 14px">인테리어 디자인</span>
+
+<span style="position:absolute;left:14.49%;top:70.50%;transform:translate(-50%,-50%);white-space:nowrap;font-size:13px;color:#E8ECF6;background:#0B1022;border:1px solid rgba(160,180,255,.3);border-radius:999px;padding:8px 14px">상품 디자인</span>
+
+<span style="position:absolute;left:14.49%;top:29.50%;transform:translate(-50%,-50%);white-space:nowrap;font-size:13px;color:#E8ECF6;background:#0B1022;border:1px solid rgba(160,180,255,.3);border-radius:999px;padding:8px 14px">제품 디자인</span>
+
+</div>
+</div>
+</section>
+
+<section id="compare" class="srg-wrap" style="padding-top: 120px; padding-bottom: 120px">
+<div class="srg-reveal" style="display: flex; flex-direction: column; gap: 14px; margin-bottom: 40px">
+<p class="srg-eyebrow">05 — WHY SRGLOBAL</p>
+<h2 class="srg-h2">대기업 MRO와 무엇이 다를까</h2>
+</div>
+<div class="srg-reveal" style="overflow-x: auto; border: 1px solid rgba(160,180,255,.14); border-radius: 6px">
+<table style="width: 100%; min-width: 640px; border-collapse: collapse; font-size: 14px">
+<thead>
+<tr>
+<th scope="col" style="text-align: left; padding: 16px 22px; font-weight: 500; color: #9FB0E8; font-size: 13px; background: rgba(30,40,80,.4); width: 34%">항목</th>
+<th scope="col" style="text-align: center; padding: 16px 22px; font-weight: 500; color: #8C97B3; font-size: 13px; background: rgba(30,40,80,.4); width: 22%">대기업 MRO</th>
+<th scope="col" style="text-align: center; padding: 16px 22px; font-weight: 700; color: #FFFFFF; font-size: 14px; background: rgba(76,107,224,.3)">에스알글러벌</th>
+</tr>
+</thead>
+<tbody>
+
+<tr style="border-top: 1px solid rgba(160,180,255,.1)">
+<th scope="row" style="text-align: left; padding: 15px 22px; color: #DCE3FF; font-weight: 500">맞춤형 서비스</th>
+<td style="padding: 15px 22px; text-align: center"><span style="display: inline-flex; align-items: center; gap: 6px; color: #6E7898; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #6E7898; stroke-width: 2; stroke-linecap: round"><path d="M7 7l10 10M17 7L7 17"></path></svg>변경 불가</span></td>
+<td style="padding: 15px 22px; text-align: center; background: rgba(76,107,224,.08)"><span style="display: inline-flex; align-items: center; gap: 6px; color: #FFFFFF; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #9FB0E8; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round"><path d="M5 12l5 5 9-10"></path></svg>원하는 형태로</span></td>
+</tr>
+
+<tr style="border-top: 1px solid rgba(160,180,255,.1)">
+<th scope="row" style="text-align: left; padding: 15px 22px; color: #DCE3FF; font-weight: 500">소규모 업체 관리</th>
+<td style="padding: 15px 22px; text-align: center"><span style="display: inline-flex; align-items: center; gap: 6px; color: #6E7898; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #6E7898; stroke-width: 2; stroke-linecap: round"><path d="M7 7l10 10M17 7L7 17"></path></svg>관심 낮음</span></td>
+<td style="padding: 15px 22px; text-align: center; background: rgba(76,107,224,.08)"><span style="display: inline-flex; align-items: center; gap: 6px; color: #FFFFFF; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #9FB0E8; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round"><path d="M5 12l5 5 9-10"></path></svg>밀착 관리</span></td>
+</tr>
+
+<tr style="border-top: 1px solid rgba(160,180,255,.1)">
+<th scope="row" style="text-align: left; padding: 15px 22px; color: #DCE3FF; font-weight: 500">지점별 선별 승인</th>
+<td style="padding: 15px 22px; text-align: center"><span style="display: inline-flex; align-items: center; gap: 6px; color: #6E7898; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #6E7898; stroke-width: 2; stroke-linecap: round"><path d="M7 7l10 10M17 7L7 17"></path></svg>불가</span></td>
+<td style="padding: 15px 22px; text-align: center; background: rgba(76,107,224,.08)"><span style="display: inline-flex; align-items: center; gap: 6px; color: #FFFFFF; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #9FB0E8; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round"><path d="M5 12l5 5 9-10"></path></svg>품목별 가능</span></td>
+</tr>
+
+<tr style="border-top: 1px solid rgba(160,180,255,.1)">
+<th scope="row" style="text-align: left; padding: 15px 22px; color: #DCE3FF; font-weight: 500">시스템 속도</th>
+<td style="padding: 15px 22px; text-align: center"><span style="display: inline-flex; align-items: center; gap: 6px; color: #6E7898; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #6E7898; stroke-width: 2; stroke-linecap: round"><path d="M7 7l10 10M17 7L7 17"></path></svg>해외 서버</span></td>
+<td style="padding: 15px 22px; text-align: center; background: rgba(76,107,224,.08)"><span style="display: inline-flex; align-items: center; gap: 6px; color: #FFFFFF; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #9FB0E8; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round"><path d="M5 12l5 5 9-10"></path></svg>국내 서버</span></td>
+</tr>
+
+<tr style="border-top: 1px solid rgba(160,180,255,.1)">
+<th scope="row" style="text-align: left; padding: 15px 22px; color: #DCE3FF; font-weight: 500">전용 메뉴 개발</th>
+<td style="padding: 15px 22px; text-align: center"><span style="display: inline-flex; align-items: center; gap: 6px; color: #6E7898; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #6E7898; stroke-width: 2; stroke-linecap: round"><path d="M7 7l10 10M17 7L7 17"></path></svg>어려움</span></td>
+<td style="padding: 15px 22px; text-align: center; background: rgba(76,107,224,.08)"><span style="display: inline-flex; align-items: center; gap: 6px; color: #FFFFFF; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #9FB0E8; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round"><path d="M5 12l5 5 9-10"></path></svg>맞춤 개발</span></td>
+</tr>
+
+<tr style="border-top: 1px solid rgba(160,180,255,.1)">
+<th scope="row" style="text-align: left; padding: 15px 22px; color: #DCE3FF; font-weight: 500">지점 데이터 관리</th>
+<td style="padding: 15px 22px; text-align: center"><span style="display: inline-flex; align-items: center; gap: 6px; color: #6E7898; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #6E7898; stroke-width: 2; stroke-linecap: round"><path d="M7 7l10 10M17 7L7 17"></path></svg>지점별 ID</span></td>
+<td style="padding: 15px 22px; text-align: center; background: rgba(76,107,224,.08)"><span style="display: inline-flex; align-items: center; gap: 6px; color: #FFFFFF; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #9FB0E8; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round"><path d="M5 12l5 5 9-10"></path></svg>Master ID 통합</span></td>
+</tr>
+
+<tr style="border-top: 1px solid rgba(160,180,255,.1)">
+<th scope="row" style="text-align: left; padding: 15px 22px; color: #DCE3FF; font-weight: 500">자료 요청 · 대응</th>
+<td style="padding: 15px 22px; text-align: center"><span style="display: inline-flex; align-items: center; gap: 6px; color: #6E7898; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #6E7898; stroke-width: 2; stroke-linecap: round"><path d="M7 7l10 10M17 7L7 17"></path></svg>내부 결재 · 매뉴얼</span></td>
+<td style="padding: 15px 22px; text-align: center; background: rgba(76,107,224,.08)"><span style="display: inline-flex; align-items: center; gap: 6px; color: #FFFFFF; font-size: 13px"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: #9FB0E8; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round"><path d="M5 12l5 5 9-10"></path></svg>즉시 · 맞춤 대응</span></td>
+</tr>
+
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="contact" style="position: relative; z-index: 2; border-top: 1px solid rgba(160,180,255,.14); background: rgba(6,9,20,.9)">
+<div style="max-width: 1200px; margin: 0 auto; padding: 100px 24px 80px; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
+<div class="srg-reveal" style="flex: 1 1 380px; display: flex; flex-direction: column; gap: 22px">
+<p class="srg-eyebrow">CONTACT</p>
+<h2 class="srg-h2" style="font-size: clamp(30px, 3.8vw, 48px)">필요한 일이 생기면,<br>먼저 연락 주세요.</h2>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; margin-top: 6px">
+<button type="button" class="srg-btn" data-open-contact style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border: 0; border-radius: 999px; background: #DCE3FF; color: #04060D; font: inherit; font-weight: 500; font-size: 15px">문의 남기기</button>
+<a class="srg-ghost" href="tel:07088441279" style="display: inline-flex; align-items: center; min-height: 52px; padding: 0 28px; border-radius: 999px; border: 1px solid rgba(201,212,255,.35); color: #DCE3FF; text-decoration: none; font-size: 15px">070-8844-1279</a>
+</div>
+</div>
+<div class="srg-reveal" style="flex: 1 1 420px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<div style="grid-column: 1 / -1; display: flex; gap: 14px; align-items: flex-start; padding: 20px; border: 1px solid rgba(160,180,255,.14); border-radius: 6px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 22px; height: 22px"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21zM12 12a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path></svg>
+<span style="font-size: 14px; color: #E8ECF6">경기도 의왕시 삼동 745 의왕테크노파크<br>더리브비즈원 1동 921호</span>
+</div>
+<a class="srg-card" href="https://blog.naver.com/sesjin1" target="_blank" rel="noopener" style="grid-column: 1 / -1; display: flex; gap: 14px; align-items: center; justify-content: space-between; padding: 18px 20px; border: 1px solid rgba(111,134,232,.35); border-radius: 6px; background: rgba(30,40,80,.3); text-decoration: none">
+<span style="display: flex; align-items: center; gap: 14px"><svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 22px; height: 22px"><path d="M4 4h12l4 4v12H4zM8 10h8M8 14h8M8 18h5"></path></svg><span style="display: flex; flex-direction: column; line-height: 1.35"><span style="font-size: 15px; color: #FFFFFF; font-weight: 500">에스알글러벌 블로그</span><span class="srg-en" style="font-size: 12px; color: #8C97B3">blog.naver.com/sesjin1</span></span></span>
+<svg viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; fill: none; stroke: #C9D4FF; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round"><path d="M7 17L17 7M9 7h8v8"></path></svg>
+</a>
+<div style="display: flex; gap: 12px; align-items: center; padding: 18px 20px; border: 1px solid rgba(160,180,255,.14); border-radius: 6px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 22px; height: 22px"><path d="M4 5h16v14H4zM4 6l8 7 8-7"></path></svg>
+<a href="mailto:sesjin1@naver.com" style="font-size: 14px; color: #E8ECF6; text-decoration: none; word-break: break-all">sesjin1@naver.com</a>
+</div>
+<div style="display: flex; gap: 12px; align-items: center; padding: 18px 20px; border: 1px solid rgba(160,180,255,.14); border-radius: 6px">
+<svg class="srg-ic" viewBox="0 0 24 24" aria-hidden="true" style="width: 22px; height: 22px"><path d="M6 9V3h12v6M6 17H4v-8h16v8h-2M7 14h10v7H7z"></path></svg>
+<span style="font-size: 14px; color: #E8ECF6">FAX 02-6455-2510</span>
+</div>
+</div>
+</div>
+<footer style="max-width: 1200px; margin: 0 auto; padding: 26px 24px 36px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; border-top: 1px solid rgba(160,180,255,.1); font-size: 12px; color: #8C97B3">
+<span style="display: inline-flex; align-items: center; gap: 10px"><img src="sr-symbol.png" alt="" width="22" height="22" style="width: 22px; height: 22px; display: block"><span class="srg-en">SRGlobal · 에스알글러벌</span></span>
+<span style="display: inline-flex; flex-wrap: wrap; align-items: center; gap: 18px"><a href="https://blog.naver.com/sesjin1" target="_blank" rel="noopener" style="color: #C9D4FF; text-decoration: none">네이버 블로그</a><span>© 2026 SRGlobal. All rights reserved.</span></span>
+</footer>
+</section>
+
+<div style="position: fixed; right: 20px; bottom: 24px; z-index: 60; display: flex; flex-direction: column; align-items: flex-end; gap: 10px">
+<button type="button" class="srg-dockbtn srg-dock-cta" data-open-contact style="display: inline-flex; align-items: center; gap: 8px; min-height: 52px; padding: 0 22px; border: 0; border-radius: 999px; background: #DCE3FF; color: #04060D; font-family: 'Noto Sans KR', sans-serif; font-size: 15px; font-weight: 500; box-shadow: 0 8px 28px rgba(0,0,0,.45)">
+<svg viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; fill: none; stroke: #04060D; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round"><path d="M4 5h16v11H9l-5 4z"></path></svg>문의
+</button>
+<a class="srg-dockbtn" href="#top" aria-label="맨 위로 이동" style="width: 52px; height: 52px; border-radius: 50%; border: 1px solid rgba(201,212,255,.4); background: rgba(10,14,30,.85); display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 28px rgba(0,0,0,.45)">
+<svg viewBox="0 0 24 24" aria-hidden="true" style="width: 20px; height: 20px; fill: none; stroke: #DCE3FF; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round"><path d="M12 19V5M5 12l7-7 7 7"></path></svg>
+</a>
+</div>
+
+<div id="srg-contact" hidden>
+<div role="dialog" aria-modal="true" aria-labelledby="srg-contact-title" style="position: fixed; inset: 0; z-index: 80; display: flex; align-items: center; justify-content: center; padding: 20px">
+<button type="button" class="srg-backdrop" aria-label="문의 창 닫기" data-close-contact style="position: absolute; inset: 0; border: 0; background: rgba(2,3,8,.72); backdrop-filter: blur(6px); cursor: pointer"></button>
+<div class="srg-panel" style="position: relative; width: min(480px, 100%); max-height: calc(100vh - 40px); overflow-y: auto; border: 1px solid rgba(160,180,255,.28); border-radius: 10px; background: #080C1A; padding: 28px; display: flex; flex-direction: column; gap: 18px; box-shadow: 0 30px 80px rgba(0,0,0,.6)">
+<div style="display: flex; justify-content: space-between; align-items: center">
+<div style="display: flex; align-items: center; gap: 10px"><img src="sr-symbol.png" alt="" width="28" height="28" style="width: 28px; height: 28px; display: block"><h2 id="srg-contact-title" style="margin: 0; font-size: 20px; color: #FFFFFF">도입 문의</h2></div>
+<button type="button" aria-label="닫기" data-close-contact style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(160,180,255,.25); background: transparent; display: flex; align-items: center; justify-content: center; cursor: pointer"><svg viewBox="0 0 24 24" aria-hidden="true" style="width: 18px; height: 18px; fill: none; stroke: #DCE3FF; stroke-width: 1.8; stroke-linecap: round"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+</div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px">
+<a href="tel:07088441279" style="display: flex; flex-direction: column; gap: 2px; padding: 14px 16px; border-radius: 8px; background: #DCE3FF; color: #04060D; text-decoration: none"><span style="font-size: 12px">전화 상담</span><span class="srg-en" style="font-size: 15px; font-weight: 600">070-8844-1279</span></a>
+<a href="mailto:sesjin1@naver.com" style="display: flex; flex-direction: column; gap: 2px; padding: 14px 16px; border-radius: 8px; border: 1px solid rgba(160,180,255,.3); color: #E8ECF6; text-decoration: none"><span style="font-size: 12px; color: #A9B3CB">이메일</span><span class="srg-en" style="font-size: 14px; font-weight: 500">sesjin1@naver.com</span></a>
+<a href="https://blog.naver.com/sesjin1" target="_blank" rel="noopener" style="grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; min-height: 44px; padding: 0 16px; border-radius: 8px; border: 1px solid rgba(160,180,255,.2); color: #C9D4FF; text-decoration: none; font-size: 13px">블로그 바로가기<svg viewBox="0 0 24 24" aria-hidden="true" style="width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round"><path d="M7 17L17 7M9 7h8v8"></path></svg></a>
+</div>
+<div style="display: flex; align-items: center; gap: 12px; font-size: 12px; color: #8C97B3"><span style="flex: 1; height: 1px; background: rgba(160,180,255,.15)"></span>또는 문의 내용 작성<span style="flex: 1; height: 1px; background: rgba(160,180,255,.15)"></span></div>
+<div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #A9B3CB">회사명<input class="srg-field" type="text" id="f-company" name="f-company" autocomplete="organization"></label>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #A9B3CB">담당자<input class="srg-field" type="text" id="f-name" name="f-name" autocomplete="name"></label>
+</div>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #A9B3CB">연락처<input class="srg-field" type="tel" id="f-phone" name="f-phone" autocomplete="tel"></label>
+<fieldset style="margin: 0; padding: 0; border: 0; display: flex; flex-direction: column; gap: 8px">
+<legend style="font-size: 13px; color: #A9B3CB; padding: 0; margin-bottom: 8px">관심 분야</legend>
+<div style="display: flex; flex-wrap: wrap; gap: 8px">
+
+<button type="button" data-topic="총무대행" aria-pressed="true" style="min-height:40px;padding:0 16px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;background:#DCE3FF;color:#04060D;border:1px solid #DCE3FF">총무대행</button>
+
+<button type="button" data-topic="기업 MRO" aria-pressed="false" style="min-height:40px;padding:0 16px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;background:transparent;color:#C9D4FF;border:1px solid rgba(160,180,255,.3)">기업 MRO</button>
+
+<button type="button" data-topic="건물관리" aria-pressed="false" style="min-height:40px;padding:0 16px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;background:transparent;color:#C9D4FF;border:1px solid rgba(160,180,255,.3)">건물관리</button>
+
+<button type="button" data-topic="디자인" aria-pressed="false" style="min-height:40px;padding:0 16px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;background:transparent;color:#C9D4FF;border:1px solid rgba(160,180,255,.3)">디자인</button>
+
+</div>
+</fieldset>
+<label style="display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #A9B3CB">문의 내용<textarea class="srg-field" rows="4" id="f-msg" name="f-msg" style="resize: vertical"></textarea></label>
+<a class="srg-btn" id="srg-send" href="mailto:sesjin1@naver.com" style="display: flex; align-items: center; justify-content: center; min-height: 52px; border-radius: 999px; background: #DCE3FF; color: #04060D; text-decoration: none; font-weight: 500; font-size: 15px">메일로 문의 보내기</a>
+<p style="margin: 0; font-size: 12px; color: #6E7898; text-align: center">버튼을 누르면 작성한 내용이 담긴 메일 창이 열립니다.</p>
+</div>
+</div>
+</div>
+
+</div>
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  // count-up
+  var nums = Array.prototype.slice.call(document.querySelectorAll('[data-count]'));
+  function fmt(n, to){ return to >= 10000 ? Math.round(n).toLocaleString('en-US') : String(Math.round(n)); }
+  function run(){
+    var t0 = performance.now();
+    function step(t){
+      var p = Math.min(1, (t - t0) / 1900), e = 1 - Math.pow(1 - p, 3);
+      nums.forEach(function(el){ var to = +el.dataset.count, fr = +el.dataset.from; el.textContent = fmt(fr + (to - fr) * e, to); });
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+  }
+  var fig = document.getElementById('figures');
+  if (!reduce && fig && 'IntersectionObserver' in window) {
+    nums.forEach(function(el){ el.textContent = fmt(+el.dataset.from, +el.dataset.count); });
+    var done = false;
+    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if (e.isIntersecting && !done){ done = true; io.disconnect(); run(); } }); }, { threshold: 0.35 });
+    io.observe(fig);
+  }
+  // contact modal
+  var modal = document.getElementById('srg-contact');
+  var lastFocus = null;
+  function open(){ lastFocus = document.activeElement; modal.hidden = false; document.body.style.overflow = 'hidden'; var f = document.getElementById('f-company'); if (f) f.focus(); }
+  function close(){ modal.hidden = true; document.body.style.overflow = ''; if (lastFocus) lastFocus.focus(); }
+  document.querySelectorAll('[data-open-contact]').forEach(function(b){ b.addEventListener('click', open); });
+  modal.querySelectorAll('[data-close-contact]').forEach(function(b){ b.addEventListener('click', close); });
+  modal.addEventListener('keydown', function(e){ if (e.key === 'Escape') close(); });
+  // topics
+  var topic = '총무대행';
+  var on = 'min-height:40px;padding:0 16px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;background:#DCE3FF;color:#04060D;border:1px solid #DCE3FF';
+  var off = 'min-height:40px;padding:0 16px;border-radius:999px;font:inherit;font-size:13px;cursor:pointer;background:transparent;color:#C9D4FF;border:1px solid rgba(160,180,255,.3)';
+  var tbtns = modal.querySelectorAll('[data-topic]');
+  tbtns.forEach(function(b){ b.addEventListener('click', function(){ topic = b.dataset.topic; tbtns.forEach(function(x){ var sel = x === b; x.setAttribute('style', sel ? on : off); x.setAttribute('aria-pressed', sel ? 'true' : 'false'); }); }); });
+  // mailto
+  var send = document.getElementById('srg-send');
+  function val(id){ var el = document.getElementById(id); return el ? el.value.trim() : ''; }
+  send.addEventListener('click', function(){
+    var company = val('f-company');
+    var bodyTxt = '회사명: ' + company + '\n담당자: ' + val('f-name') + '\n연락처: ' + val('f-phone') + '\n관심 분야: ' + topic + '\n\n문의 내용:\n' + val('f-msg');
+    send.href = 'mailto:sesjin1@naver.com?subject=' + encodeURIComponent('[홈페이지 문의] ' + company + ' ' + topic) + '&body=' + encodeURIComponent(bodyTxt);
+  });
+})();
+
+</script>
+</body>
+</html>
