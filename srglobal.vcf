@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+N:김;유진;;;
+FN:김유진
+ORG:에스알글러벌 (SR Global)
+TITLE:대표
+TEL;TYPE=CELL:010-5819-1279
+TEL;TYPE=WORK,VOICE:070-8844-1279
+TEL;TYPE=WORK,FAX:02-6455-2510
+EMAIL;TYPE=INTERNET,WORK:sesjin1@naver.com
+ADR;TYPE=WORK:;;의왕테크노파크 더리브비즈원(지식산업센터) 1동 921호, 삼동 745;의왕시;경기도;16079;대한민국
+URL:https://www.srglobal.kr
+END:VCARD
